@@ -1,28 +1,15 @@
 {
-  "name": "gemini-websocket-proxy",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "gemini-relay-server",
+  "version": "1.0.0",
+  "description": "A relay server to proxy requests to a secure Gemini applet via WebSockets.",
+  "main": "index.js",
   "scripts": {
-    "dev": "ng serve",
-    "build": "ng build",
-    "preview": "ng serve --configuration=production"
+    "start": "node index.js"
   },
+  "type" : "module",
   "dependencies": {
-    "rxjs": "^7.8.2",
-    "@angular/compiler": "^21.0.0",
-    "@angular/platform-browser": "^21.0.0",
-    "@angular/core": "^21.0.0",
-    "@angular/common": "^21.0.0",
-    "@google/genai": "^1.30.0",
-    "@angular/build": "^21.0.0",
-    "@angular/cli": "^21.0.0",
-    "@angular/compiler-cli": "^21.0.0",
-    "tailwindcss": "latest"
-  },
-  "devDependencies": {
-    "@types/node": "^22.14.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
   }
 }
