@@ -1,0 +1,5 @@
+{
+  "name": "Gemini WebSocket Proxy",
+  "description": "An application demonstrating a secure WebSocket-based proxy architecture. This applet acts as a secure execution node, actively connecting to a relay server via WebSocket to process Gemini API requests without exposing the API key.",
+  "requestFramePermissions": []
+}
