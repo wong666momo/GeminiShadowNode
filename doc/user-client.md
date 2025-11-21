@@ -27,7 +27,7 @@
 客户端通过动态修改 URL 路径来切换模型。中转服务器捕获此路径并转发给 Applet。
 
 *   **URL 模板**: `https://{你的域名}/v1beta/models/{模型名称}:generateContent`
-*   **示例**: `https://yunsisanren.top/v1beta/models/gemini-2.0-flash-exp:generateContent`
+*   **示例**: `https://your-site.com/v1beta/models/gemini-2.0-flash-exp:generateContent`
 
 ### 2. 请求体结构 (JSON Body)
 
@@ -262,7 +262,7 @@
         });
 
         // ================= 配置 =================
-        const API_BASE = 'https://yunsisanren.top/v1beta/models';
+        const API_BASE = 'https://your-site.com/v1beta/models';
 
         // 上下文历史 (Chat History)
         let chatHistory = [];
